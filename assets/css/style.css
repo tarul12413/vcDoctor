@@ -8755,6 +8755,10 @@ Sticky Menu
         padding: 235px 0px 120px 0px;
     }
     
+    .saas_two_banner_section.solution-main.chooseus .saas2-headline h1 {
+        font-size: 120px;
+    }
+    
     .saas_two_banner_section.banner-about,
     .saas_two_banner_section.solution-main {
         height: 100vh;
@@ -10299,6 +10303,11 @@ Service Styles
         line-height: 1.714;
     }
     
+    .f-icon-vc {
+        height: 50px;
+        width: 50px;
+    }
+    
     .saas_two_footer_section .s2_footer_widget .s2_footer_about span {
         color: #00BEA3;
         font-weight: 700;
@@ -10383,20 +10392,13 @@ Service Styles
         background-color: rgba(255, 255, 255, 0.2);
     }
     
-    .colorBox-main {
-        padding-bottom: 0!important;
-    }
-    
     .stap-inner {
-        position: relative;
-        min-height: 595px;
         text-align: left;
     }
     
     .colorBox {
         border-radius: 20px;
         color: #fff;
-        position: absolute;
     }
     
     .colorBox-1 {
@@ -10404,9 +10406,6 @@ Service Styles
         background: -moz-linear-gradient(-45deg, #d74782 0, #c00556 100%);
         background: -webkit-linear-gradient( -45deg, #d74782 0, #c00556 100%);
         background: linear-gradient( 135deg, #d74782 0, #c00556 100%);
-        width: 26.3%;
-        top: 31.9%;
-        left: .6%;
     }
     
     .Box-text {
@@ -10418,8 +10417,7 @@ Service Styles
     
     .Box-text p {
         margin: 0;
-        padding: 36px 20px 30px 46px;
-        font-size: 18px;
+        padding: 10px 20px 25px 20px;
     }
     
     .triangle {
@@ -10438,6 +10436,10 @@ Service Styles
     .colorBox-1 .triangle {
         left: auto;
         right: 40px;
+    }
+    
+    .colorBox-2 .triangle:before {
+        background: linear-gradient( 135deg, #722170 0, #2d245d 100%);
     }
     
     .colorBox-1 .triangle:before {
@@ -10460,9 +10462,6 @@ Service Styles
         background: -moz-linear-gradient(-45deg, #722170 0, #2d245d 100%);
         background: -webkit-linear-gradient( -45deg, #722170 0, #2d245d 100%);
         background: linear-gradient( 135deg, #722170 0, #2d245d 100%);
-        width: 28.4%;
-        left: 19%;
-        bottom: 20px;
     }
     
     .colorBox-3 {
@@ -10470,9 +10469,6 @@ Service Styles
         background: -moz-linear-gradient(-45deg, #ea4b21 0, #e8362a 100%);
         background: -webkit-linear-gradient( -45deg, #ea4b21 0, #e8362a 100%);
         background: linear-gradient( 135deg, #ea4b21 0, #e8362a 100%);
-        width: 33.8%;
-        left: 28.4%;
-        top: 21%;
     }
     
     .colorBox-3 .triangle:before {
@@ -10497,8 +10493,8 @@ Service Styles
         z-index: -1;
         content: "";
         position: absolute;
-        left: -28px;
-        top: -20px;
+        left: -55px;
+        top: -47px;
         background: rgba(0, 0, 0, .2);
         border-radius: 50%;
         width: 150px;
@@ -10510,40 +10506,10 @@ Service Styles
         background: -moz-linear-gradient(-45deg, #f8d00c 0, #f49401 100%);
         background: -webkit-linear-gradient( -45deg, #f8d00c 0, #f49401 100%);
         background: linear-gradient( 135deg, #f8d00c 0, #f49401 100%);
-        width: 28.5%;
-        right: 16.8%;
-        top: -6.6%;
-    }
-    
-    .colorBox-4 .Box-text p {
-        padding: 34px 10px 25px 35px;
-    }
-    
-    .colorBox-3 .Box-text p {
-        padding: 68px 30px 48px 33px;
     }
     
     .colorBox-4 .triangle:before {
         background: linear-gradient( -45deg, #f49401 -100%, #f8d00c 100%);
-    }
-    
-    .colorBox-5 {
-        background: #88be21;
-        background: -moz-linear-gradient(-45deg, #88be21 0, #45ae2c 100%);
-        background: -webkit-linear-gradient( -45deg, #88be21 0, #45ae2c 100%);
-        background: linear-gradient( 135deg, #88be21 0, #45ae2c 100%);
-        width: 26.9%;
-        right: 1.4%;
-        top: 26.2%;
-        z-index: 9;
-    }
-    
-    .colorBox-5 .Box-text p {
-        padding: 12px 10px 13px 36px;
-    }
-    
-    .colorBox-5 .triangle:before {
-        background: linear-gradient( -45deg, #45ae2c -100%, #88be21 100%);
     }
     
     .Box-text .Box-text-number {
