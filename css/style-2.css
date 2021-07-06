@@ -6488,7 +6488,8 @@ body.fixed .menu-container {
 
 .sec_whyus {
     text-align: center;
-    position: relative
+    position: relative;
+    margin-top: 215px;
 }
 
 .center_sec {
@@ -7790,6 +7791,11 @@ body.fixed .menu-container {
     font-weight: 700
 }
 
+.dart_platform_bottom.ser_bln.quality_excellence {
+    margin: 45px 0 0 150px;
+    width: 100%
+}
+
 .ser_bln.quality_excellence {
     margin: -120px 0 0 300px;
     width: 100%
@@ -7800,13 +7806,23 @@ body.fixed .menu-container {
     width: 100%
 }
 
+.dart_space_bottom.quality_ser.quality_excellence {
+    margin: 45px 0 0 -150px;
+    width: 100%
+}
+
+.dart_space_bottom2.quality_ser.quality_excellence {
+    margin: -190px 0 0 -575px;
+    width: 100%
+}
+
 .quality_ser.quality_excellence {
     margin: -120px 0 0 -250px;
     width: 100%
 }
 
 .ser_space.align_centered_sec.quality_excellence {
-    margin: 90px 0 0 130px;
+    margin: 90px 0 0 80px;
     width: 100%
 }
 
@@ -8428,7 +8444,7 @@ body.fixed .menu-container {
 
 .main_gradinet_sec {
     padding: 30px 0 50px 0;
-    background-image: linear-gradient(to right top, #ddfdf3, #ecfdfd, #eafbfb, #faffff, #f6fffe);
+    background: #d3f4ee;
     border-bottom: 1px solid #ece9e9;
     max-width: 100%!important
 }
@@ -10951,15 +10967,19 @@ body.fixed .menu-container {
 }
 
 .dart_platform_home.ser_bln.quality_excellence {
-    margin: -110px 0 0 300px
+    margin: -5px 0 0 125px;
+}
+
+.dart_platform_home2.ser_bln.quality_excellence {
+    margin: -175px 0 0 585px;
 }
 
 .dart_space_home.quality_ser.quality_excellence {
-    margin: -110px 0 0 -300px
+    margin: -10px 0 0 -125px;
 }
 
 .verfication_home.spacing_manage.quality_excellence {
-    margin: 110px 0 0 -120px
+    margin: 110px 0 0 -95px;
 }
 
 .home_healthcare_sol.healthcare_ser h2 {
