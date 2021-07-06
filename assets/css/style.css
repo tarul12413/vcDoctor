@@ -10383,16 +10383,176 @@ Service Styles
         background-color: rgba(255, 255, 255, 0.2);
     }
     
+    .colorBox-main {
+        padding-bottom: 0!important;
+    }
+    
+    .stap-inner {
+        position: relative;
+        min-height: 595px;
+        text-align: left;
+    }
+    
+    .colorBox {
+        border-radius: 20px;
+        color: #fff;
+        position: absolute;
+    }
+    
+    .colorBox-1 {
+        background: #d74782;
+        background: -moz-linear-gradient(-45deg, #d74782 0, #c00556 100%);
+        background: -webkit-linear-gradient( -45deg, #d74782 0, #c00556 100%);
+        background: linear-gradient( 135deg, #d74782 0, #c00556 100%);
+        width: 26.3%;
+        top: 31.9%;
+        left: .6%;
+    }
+    
+    .Box-text {
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    
+    .Box-text p {
+        margin: 0;
+        padding: 36px 20px 30px 46px;
+        font-size: 18px;
+    }
+    
+    .triangle {
+        background: 0 0;
+        overflow: hidden;
+        margin: 0 auto;
+        width: 34px;
+        height: 40px;
+        transform: rotate( -90deg) skewY( 30deg);
+        position: absolute;
+        left: 40px;
+        bottom: -36px;
+        z-index: 1;
+    }
+    
+    .colorBox-1 .triangle {
+        left: auto;
+        right: 40px;
+    }
+    
+    .colorBox-1 .triangle:before {
+        background: linear-gradient( -45deg, #c10a58 -100%, #d74782 100%);
+        left: auto;
+        right: 50px;
+    }
+    
+    .triangle:before {
+        display: block;
+        width: inherit;
+        height: inherit;
+        transform: skewY( -30deg) rotate( 60deg) translate(50%);
+        background-size: cover;
+        content: '';
+    }
+    
+    .colorBox-2 {
+        background: #722170;
+        background: -moz-linear-gradient(-45deg, #722170 0, #2d245d 100%);
+        background: -webkit-linear-gradient( -45deg, #722170 0, #2d245d 100%);
+        background: linear-gradient( 135deg, #722170 0, #2d245d 100%);
+        width: 28.4%;
+        left: 19%;
+        bottom: 20px;
+    }
+    
+    .colorBox-3 {
+        background: #ea4b21;
+        background: -moz-linear-gradient(-45deg, #ea4b21 0, #e8362a 100%);
+        background: -webkit-linear-gradient( -45deg, #ea4b21 0, #e8362a 100%);
+        background: linear-gradient( 135deg, #ea4b21 0, #e8362a 100%);
+        width: 33.8%;
+        left: 28.4%;
+        top: 21%;
+    }
+    
+    .colorBox-3 .triangle:before {
+        background: linear-gradient( -45deg, #e8362a -100%, #ea4b21 100%);
+    }
+    
     .saas_two_footer_section .s2_footer_widget .s2_footer_social a {
-        height: 30px;
-        width: 30px;
+        height: 50px;
+        width: 50px;
         border-radius: 100%;
         background-color: #fff;
         line-height: 30px;
         text-align: center;
         margin-right: 5px;
+        font-size: 30px;
+        padding: 10px;
         display: inline-block;
         transition: 0.3s all ease-in-out;
+    }
+    
+    .Box-text .Box-text-number:before {
+        z-index: -1;
+        content: "";
+        position: absolute;
+        left: -28px;
+        top: -20px;
+        background: rgba(0, 0, 0, .2);
+        border-radius: 50%;
+        width: 150px;
+        height: 143px;
+    }
+    
+    .colorBox-4 {
+        background: #f8d00c;
+        background: -moz-linear-gradient(-45deg, #f8d00c 0, #f49401 100%);
+        background: -webkit-linear-gradient( -45deg, #f8d00c 0, #f49401 100%);
+        background: linear-gradient( 135deg, #f8d00c 0, #f49401 100%);
+        width: 28.5%;
+        right: 16.8%;
+        top: -6.6%;
+    }
+    
+    .colorBox-4 .Box-text p {
+        padding: 34px 10px 25px 35px;
+    }
+    
+    .colorBox-3 .Box-text p {
+        padding: 68px 30px 48px 33px;
+    }
+    
+    .colorBox-4 .triangle:before {
+        background: linear-gradient( -45deg, #f49401 -100%, #f8d00c 100%);
+    }
+    
+    .colorBox-5 {
+        background: #88be21;
+        background: -moz-linear-gradient(-45deg, #88be21 0, #45ae2c 100%);
+        background: -webkit-linear-gradient( -45deg, #88be21 0, #45ae2c 100%);
+        background: linear-gradient( 135deg, #88be21 0, #45ae2c 100%);
+        width: 26.9%;
+        right: 1.4%;
+        top: 26.2%;
+        z-index: 9;
+    }
+    
+    .colorBox-5 .Box-text p {
+        padding: 12px 10px 13px 36px;
+    }
+    
+    .colorBox-5 .triangle:before {
+        background: linear-gradient( -45deg, #45ae2c -100%, #88be21 100%);
+    }
+    
+    .Box-text .Box-text-number {
+        font-size: 65px;
+        margin: 0;
+        padding: 10px 0 0 17px;
+        line-height: normal;
+        z-index: 1;
+        font-family: 'poppins-bold';
     }
     
     .saas_two_footer_section .s2_footer_widget .s2_footer_social a:hover {
