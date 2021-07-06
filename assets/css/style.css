@@ -8283,7 +8283,7 @@ Sticky Menu
     
     .saas_two_section_title {
         margin: 0 auto;
-        max-width: 635px;
+        max-width: 100%;
     }
     
     .saas_two_section_title .title_tag {
@@ -8752,7 +8752,7 @@ Sticky Menu
         margin: 0 auto;
         max-width: 1920px;
         background-color: #fafafa;
-        padding: 235px 0px 140px 0px;
+        padding: 235px 0px 120px 0px;
     }
     
     .saas_two_banner_section.banner-about,
@@ -8817,7 +8817,7 @@ Sticky Menu
     .saas_two_banner_section .s2-banner_content {
         position: relative;
         z-index: 1;
-        max-width: 450px;
+        max-width: 550px;
     }
     
     .saas_two_banner_section .s2-banner_content .s2-tilte_tag {
@@ -8829,7 +8829,7 @@ Sticky Menu
     }
     
     .saas_two_banner_section .s2-banner_content h1 {
-        font-size: 55px;
+        font-size: 42px;
         padding: 18px 0px 20px 0px;
     }
     
