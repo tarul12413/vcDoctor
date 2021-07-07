@@ -6575,8 +6575,7 @@ body.fixed .menu-container {
     color: #333;
     margin: 10px 0 30px 0;
     font-weight: 500;
-    text-align: center;
-    padding: 0px;
+    text-align: left;
 }
 
 .twitter_space.extra_content.excellence.quality_excellence {

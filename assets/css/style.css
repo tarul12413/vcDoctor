@@ -8901,16 +8901,21 @@ Sticky Menu
         max-width: 100%;
     }
     
+    .saas_two_banner_section.banner-about .s2-banner_content p {
+        max-width: 80%;
+        font-size: 20px
+    }
+    
     .saas_two_banner_section.banner-about .s2-banner_content {
         color: white;
-        text-align: center;
+        text-align: left;
         max-width: 100%;
     }
     
     .saas_two_banner_section .s2-banner_content {
         position: relative;
         z-index: 1;
-        max-width: 550px;
+        max-width: 580px;
     }
     
     .saas_two_banner_section .s2-banner_content .s2-tilte_tag {
@@ -8919,6 +8924,7 @@ Sticky Menu
     
     .saas_two_banner_section.banner-about .s2-banner_content h1 {
         color: white;
+        font-size: 56px;
     }
     
     .saas_two_banner_section .s2-banner_content h1 {
@@ -8982,18 +8988,19 @@ Sticky Menu
     }
     
     .saas_two_banner_section.banner-about .s2-banner_area .banner_mockup {
-        left: -190px
+        left: -160px;
+        top: -94px;
     }
     
     .saas_two_banner_section .s2-banner_area .banner_mockup {
         position: absolute;
-        top: 17px;
-        right: -500px;
+        top: 45px;
+        right: -608px;
         z-index: 1;
     }
     
     .saas_two_banner_section.banner-about .s2-banner_area .banner_mockup img {
-        width: 45%;
+        width: 55%;
     }
     
     .saas_two_banner_section .s2-banner_area .banner_mockup img {
@@ -9311,6 +9318,7 @@ Service Styles
     
     .axil-service .inner .content p {
         margin-bottom: 3px;
+        text-align: left;
     }
     
     @media only screen and (max-width: 767px) {
@@ -9699,7 +9707,7 @@ Service Styles
     /*----------------------------------------------------*/
     
     .saas_two_feature_section {
-        padding: 105px 0px 85px;
+        padding: 40px 0 20px;
     }
     
     .saas_two_feature_section .s2-feature_text {
@@ -9731,8 +9739,7 @@ Service Styles
     }
     
     .saas_two_feature_section .s2-feature_right .s2-feature_list {
-        margin-bottom: 10px;
-        padding: 22px 32px 20px;
+        padding: 10px 15px;
         border-radius: 10px;
         display: inline-block;
         transition: 0.4s all ease-in-out;
@@ -9756,11 +9763,11 @@ Service Styles
     }
     
     .saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon {
-        width: 95px;
+        width: 85px;
         float: left;
-        height: 95px;
+        height: 85px;
         border-radius: 100%;
-        line-height: 105px;
+        line-height: 108px;
         margin-right: 30px;
     }
     
@@ -9778,7 +9785,7 @@ Service Styles
     }
     
     .saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon i {
-        font-size: 30px;
+        font-size: 50px;
     }
     
     .saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_text_box {
@@ -9790,75 +9797,25 @@ Service Styles
         color: #010101;
         font-size: 22px;
         font-weight: 700;
-        padding-bottom: 15px;
+        margin: 25px 0;
     }
     
     .saas_two_feature_section .s2-feature_right .s2-feature_list:hover {
         margin-left: 30px;
+        width: 80%;
         box-shadow: 0px 3px 43px 0px rgba(0, 0, 0, 0.13);
     }
     
-    .saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(1) .s2-feature_icon {
-        background-color: #d9f3de;
+    .saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon {
+        background-color: #e9fffc;
     }
     
-    .saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(1) .s2-feature_icon i {
-        color: #049507;
-    }
-    
-    .saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(1):before {
-        background-color: #049507;
-    }
-    
-    .saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(2) .s2-feature_icon {
-        background-color: #e1e1f5;
-    }
-    
-    .saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(2) .s2-feature_icon i {
+    .saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon i {
         color: #00BEA3;
     }
     
-    .saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(2):before {
+    .saas_two_feature_section .s2-feature_right .s2-feature_list:before {
         background-color: #00BEA3;
-    }
-    
-    .saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(3) .s2-feature_icon {
-        background-color: #ebdcf4;
-    }
-    
-    .saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(3) .s2-feature_icon i {
-        color: #d912dc;
-    }
-    
-    .saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(3):before {
-        background-color: #d912dc;
-    }
-    /*---------------------------------------------------- */
-    /*Intergation area*/
-    /*----------------------------------------------------*/
-    
-    .integration_section {
-        background-color: #f0f2f7;
-        padding: 120px 0px 55px;
-    }
-    
-    .integration_section .integration_img {
-        padding-top: 10px;
-    }
-    
-    .integration_section .integration_text {
-        padding-right: 50px;
-    }
-    
-    .integration_section .integration_text h2 {
-        font-size: 40px;
-        line-height: 1.25;
-        padding: 15px 0px 20px;
-    }
-    
-    .integration_section .integration_text p {
-        color: #666666;
-        padding-bottom: 18px;
     }
     /*---------------------------------------------------- */
     /*Team area*/
