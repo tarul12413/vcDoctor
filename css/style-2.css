@@ -6489,7 +6489,6 @@ body.fixed .menu-container {
 .sec_whyus {
     text-align: center;
     position: relative;
-    margin-top: 215px;
 }
 
 .center_sec {
@@ -6632,11 +6631,20 @@ body.fixed .menu-container {
     margin: 0 auto
 }
 
-.quality_excellence h2 {
+.choosevc-2 h2 {
     font-size: 14px;
     margin-left: 0;
-    color: #01459a;
-    font-weight: 501
+    color: #353B51;
+    font-weight: 501;
+    padding: 10px 0;
+}
+
+.choosevc-2 h2 img {
+    padding-left: 10px;
+}
+
+.cvc-2 h2 img {
+    padding-right: 10px;
 }
 
 .quality_excellence p {
@@ -10992,11 +11000,11 @@ body.fixed .menu-container {
 }
 
 .choosevc.border-right {
-    border-right: 2px solid #fff !important;
+    border-right: 2px solid #00BEA3 !important;
 }
 
 .choosevc.border-bottom {
-    border-bottom: 2px solid #fff !important;
+    border-bottom: 2px solid #00BEA3 !important;
 }
 
 .dart_platform_home.ser_bln.quality_excellence {

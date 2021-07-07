@@ -10509,6 +10509,13 @@ Service Styles
         padding: 10px 20px 25px 20px;
     }
     
+    .colorBox-2 .triangle,
+    .colorBox-4 .triangle {
+        left: 228px;
+        top: 12px;
+        transform: rotate( 90deg) skewY( 30deg);
+    }
+    
     .triangle {
         background: 0 0;
         overflow: hidden;
@@ -10518,13 +10525,8 @@ Service Styles
         transform: rotate( -90deg) skewY( 30deg);
         position: absolute;
         left: 40px;
-        bottom: -36px;
+        bottom: 12px;
         z-index: 1;
-    }
-    
-    .colorBox-1 .triangle {
-        left: auto;
-        right: 40px;
     }
     
     .colorBox-2 .triangle:before {
@@ -10962,6 +10964,9 @@ Service Styles
         .about_content_s2 {
             max-width: 750px;
             margin: 0 auto;
+        }
+        .border-seagreen {
+            border-color: #00BEA3 !important;
         }
         .saas_two_main_header .s2-main-navigation {
             display: none;
