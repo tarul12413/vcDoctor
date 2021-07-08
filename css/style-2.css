@@ -6639,7 +6639,8 @@ body.fixed .menu-container {
 }
 
 .choosevc-2 h2 img {
-    padding-left: 10px;
+    padding: 15px;
+    margin-bottom: 42px;
 }
 
 .cvc-2 h2 img {

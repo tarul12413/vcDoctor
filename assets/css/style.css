@@ -9763,18 +9763,23 @@ Service Styles
     }
     
     .saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon {
-        width: 85px;
+        width: 65px;
         float: left;
-        height: 85px;
+        height: 65px;
         border-radius: 100%;
-        line-height: 108px;
-        margin-right: 30px;
+        margin-right: 8px;
+    }
+    
+    .choose-mid-img {
+        width: 72%;
+        margin: auto;
+        padding: 10px;
     }
     
     .saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon:after {
         left: 0;
         right: 0;
-        top: 5px;
+        top: 3px;
         width: 90%;
         height: 90%;
         content: "";
@@ -9789,7 +9794,8 @@ Service Styles
     }
     
     .saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_text_box {
-        max-width: 310px;
+        max-width: 100%;
+        margin: 20px 0 0;
         display: inline-block;
     }
     
