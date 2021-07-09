@@ -8845,7 +8845,7 @@ Sticky Menu
     }
     
     .saas_two_banner_section.solution-main.chooseus .saas2-headline h1 {
-        font-size: 120px;
+        font-size: 85px;
     }
     
     .saas_two_banner_section.banner-about,
@@ -8999,6 +8999,10 @@ Sticky Menu
         z-index: 1;
     }
     
+    .privacy {
+        padding: 125px 0 0;
+    }
+    
     .saas_two_banner_section.banner-about .s2-banner_area .banner_mockup img {
         width: 55%;
     }
@@ -9101,7 +9105,7 @@ Service Styles
     }
     
     .axil-service .inner {
-        padding: 40px 15px;
+        padding: 10px 15px;
         position: relative;
         z-index: 2;
     }
@@ -9203,13 +9207,10 @@ Service Styles
     
     .axil-service .inner .icon {
         position: relative;
-        height: 35px;
-        width: 120px;
         z-index: 2;
-        margin: 0 auto;
         -webkit-perspective: 100px;
         perspective: 100px;
-        margin-bottom: 45px;
+        margin-bottom: 15px;
     }
     
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -9285,7 +9286,6 @@ Service Styles
         line-height: 58px;
         border-radius: 100%;
         background: #702FFF;
-        left: 32px;
         z-index: 1;
         overflow: hidden;
     }
@@ -9741,6 +9741,7 @@ Service Styles
     .saas_two_feature_section .s2-feature_right .s2-feature_list {
         padding: 10px 15px;
         border-radius: 10px;
+        width: 80%;
         display: inline-block;
         transition: 0.4s all ease-in-out;
         position: relative;
@@ -9771,9 +9772,10 @@ Service Styles
     }
     
     .choose-mid-img {
-        width: 72%;
+        width: 150%;
         margin: auto;
-        padding: 10px;
+        left: -35%;
+        position: relative;
     }
     
     .saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon:after {
