@@ -6098,7 +6098,7 @@ button.slick-prev:hover {
 }
 
 .submit_ftr {
-    background: linear-gradient(to right top, #a80cec, #911def, #7627f2, #542ff4, #0c35f6);
+    background: linear-gradient(to right top, #353B51, #00BEA3);
     padding: 10px 30px 11px 30px;
     width: 100%;
     color: #fff;
@@ -6570,7 +6570,7 @@ body.fixed .menu-container {
     font-size: 30px
 }
 
-.industries_we_serve p {
+.industries_we_serve .parent_industries p {
     font-size: 16px;
     color: #333;
     margin: 10px 0 30px 0;
@@ -7244,7 +7244,8 @@ body.fixed .menu-container {
 }
 
 .submit_ftr:hover {
-    background: transparent;
+    background: linear-gradient(to right top, #00BEA3, #353B51);
+    color: white;
     border: 1px solid #01459a;
     text-decoration: none;
     transition: .4s
@@ -8909,9 +8910,10 @@ body.fixed .menu-container {
     border-radius: 50px;
 }
 
-.main_business_sec img {
+
+/* .main_business_sec img {
     height: 370px;
-}
+} */
 
 .main_business_sec p {
     padding-top: 0 !important;
