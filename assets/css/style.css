@@ -8994,8 +8994,8 @@ Sticky Menu
     
     .saas_two_banner_section .s2-banner_area .banner_mockup {
         position: absolute;
-        top: 45px;
-        right: -608px;
+        top: 50px;
+        right: -1180px;
         z-index: 1;
     }
     
@@ -9004,11 +9004,15 @@ Sticky Menu
     }
     
     .saas_two_banner_section.banner-about .s2-banner_area .banner_mockup img {
-        width: 55%;
+        width: 40%;
     }
     
     .saas_two_banner_section .s2-banner_area .banner_mockup img {
-        width: 55%;
+        width: 36%;
+    }
+    
+    .image-2 img {
+        width: 60%;
     }
     
     .saas_two_banner_section .s2-banner_shape1 {

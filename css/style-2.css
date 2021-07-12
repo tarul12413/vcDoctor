@@ -6592,7 +6592,7 @@ body.fixed .menu-container {
     padding: 30px 0 30px 0;
     margin-left: 7px;
     background: #fff!important;
-    margin-top: 6px;
+    margin-top: 20px;
     height: 370px;
     border-radius: 10px;
     border: 1px solid #ddd
@@ -10459,7 +10459,7 @@ body.fixed .menu-container {
     animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
     cursor: pointer;
     transform: scale(1.2);
-    display: none
+    display: none;
 }
 
 .ad_marketing_banner.slider_sec {
@@ -10567,22 +10567,6 @@ body.fixed .menu-container {
 
 .few_illustration.bg_portfolio {
     background: #fda467!important
-}
-
-.millions_adored.bg_portfolio {
-    background: #3f3f3f!important
-}
-
-.kayawell_ptr.bg_portfolio {
-    background: #06bab7!important
-}
-
-.vcdoctor_ptr.bg_portfolio {
-    background: #26d6a7!important
-}
-
-.bettermind_ptr.bg_portfolio {
-    background: #1b3a59!important
 }
 
 .angular_development.telemedicine_ser_sld.slider_sec {
