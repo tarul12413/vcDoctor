@@ -10869,7 +10869,7 @@ Service Styles
             padding: 25px 0px 65px;
         }
         .saas_two_footer_section:before {
-            height: 75%;
+            height: 125%;
             top: auto;
             bottom: 0;
         }
@@ -10993,7 +10993,7 @@ Service Styles
             margin-bottom: 40px;
         }
         .saas_two_footer_section {
-            padding-top: 0;
+            padding-top: 20px;
         }
     }
     
