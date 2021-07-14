@@ -1752,7 +1752,8 @@ input[type=reset]:disabled,
 }
 
 .banking_finance .col-md-8 h4 {
-    padding: 15px 0;
+    padding: 25px 0;
+    text-align: left;
 }
 
 .wp-block-image figcaption {
@@ -6576,6 +6577,7 @@ body.fixed .menu-container {
     margin: 10px 0 30px 0;
     font-weight: 500;
     text-align: left;
+    padding-top: 0 !important;
 }
 
 .twitter_space.extra_content.excellence.quality_excellence {
@@ -7203,7 +7205,6 @@ body.fixed .menu-container {
 }
 
 .banking_finance:hover {
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
     transition: .4s;
     transform: scale(1.1)
 }
@@ -8356,7 +8357,53 @@ body.fixed .menu-container {
 
 .action_perform {
     text-align: center;
-    padding: 45px 0px 0px;
+    padding: 75px 0px 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.action_perform a {
+    color: white;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.action_perform a:hover {
+    color: #032959;
+}
+
+.action_perform a:after {
+    content: "\f061";
+    position: absolute;
+    width: 100%;
+    left: 125px;
+    bottom: -4px;
+    font-size: 48px;
+    transition: 0.3s all ease-in-out;
+    color: white;
+    font-family: "Font Awesome 5 Free";
+}
+
+.action_perform a:before {
+    content: "";
+    position: absolute;
+    height: 7.6px;
+    width: 67%;
+    left: 43px;
+    bottom: 25px;
+    transition: 0.3s all ease-in-out;
+    color: white;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.action_perform a:hover:before {
+    background-color: #032959;
+}
+
+.action_perform a:hover:after {
+    color: #032959;
 }
 
 .nav.nav-tabs.tabs-left li a.active {
@@ -8659,7 +8706,7 @@ body.fixed .menu-container {
 
 .innovate_together ul li {
     line-height: 31px;
-    font-size: 14px!important;
+    font-size: 20px!important;
     margin: 0 0 10px 0;
     color: #424a54;
     padding: 9px 29px!important;
@@ -8915,16 +8962,20 @@ body.fixed .menu-container {
     height: 370px;
 } */
 
-.main_business_sec p {
+
+/* .main_business_sec p {
     padding-top: 0 !important;
-}
+} */
 
 .main_business_sec .banner_btn a {
-    width: 90%;
+    width: 68%;
     border-radius: 25px 0px 25px 0;
+    font-size: 12px;
     color: #00BEA3;
     border: 2px solid #00BEA3;
     background: #e9fffc;
+    line-height: 40px;
+    height: auto;
 }
 
 .business_verticals.heading-block h2 {
@@ -9315,9 +9366,7 @@ body.fixed .menu-container {
 }
 
 .banking_finance .col-md-3 {
-    padding: 15px;
-    border-radius: 50%;
-    background-color: #c4faee;
+    padding: 15px 0;
     margin-left: 10px;
 }
 
@@ -9754,7 +9803,6 @@ body.fixed .menu-container {
 .innovate_together li:hover {
     background-image: transparent;
     transition: .4s;
-    cursor: pointer;
     border: 2px solid #1710ec;
     background: #d3f4ee
 }

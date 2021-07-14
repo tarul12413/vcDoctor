@@ -156,6 +156,7 @@
     
     .relative-position {
         position: relative;
+        z-index: 7;
     }
     
     .pera-content p {
@@ -8620,7 +8621,7 @@ Sticky Menu
     
     .saas_two_main_header {
         width: 100%;
-        z-index: 9;
+        z-index: 99;
         padding: 15px 0px;
         position: absolute;
         background-color: #fff;
@@ -8647,7 +8648,7 @@ Sticky Menu
     .saas_two_main_header .s2-main-navigation .navbar-nav li {
         font-size: 15px;
         font-weight: 600;
-        margin-right: 55px;
+        margin-right: 30px;
         font-family: "Poppins";
     }
     
@@ -8841,6 +8842,7 @@ Sticky Menu
         margin: 0 auto;
         max-width: 1920px;
         background-color: #fafafa;
+        height: 745px;
         padding: 235px 0px 120px 0px;
     }
     
@@ -8850,7 +8852,7 @@ Sticky Menu
     
     .saas_two_banner_section.banner-about,
     .saas_two_banner_section.solution-main {
-        height: 100vh;
+        height: 745px;
     }
     
     .saas_two_banner_section.solution-main:before {
@@ -8902,7 +8904,6 @@ Sticky Menu
     }
     
     .saas_two_banner_section.banner-about .s2-banner_content p {
-        max-width: 80%;
         font-size: 20px
     }
     
@@ -8938,9 +8939,9 @@ Sticky Menu
     }
     
     .sec_serv img {
-        margin: 10px 0 0 0;
+        margin: auto;
         display: flex;
-        width: 100%!important;
+        width: 70%!important;
     }
     
     .sec_serv .banner_btn {
@@ -8956,7 +8957,16 @@ Sticky Menu
     }
     
     .sec_serv .banner_btn a:last-child i {
-        margin-right: 23px;
+        color: black !important;
+        -webkit-text-fill-color: inherit;
+    }
+    
+    .sec_serv .banner_btn a i {
+        font-size: 20px;
+        margin-right: 8px;
+        color: #a4c639 !important;
+        -webkit-text-fill-color: inherit;
+        background-image: transparent;
     }
     
     .banner_btn a {
@@ -9011,10 +9021,6 @@ Sticky Menu
         width: 36%;
     }
     
-    .image-2 img {
-        width: 60%;
-    }
-    
     .saas_two_banner_section .s2-banner_shape1 {
         left: 0;
         top: 85px;
@@ -9046,21 +9052,61 @@ Service Styles
     
     .axil-service-area .cta-img {
         position: relative;
-        margin-top: 100px;
+        margin-top: 55px;
     }
     
-    .axil-service-area .action_perform,
+    .axil-service-area .cta-img img {
+        width: 90%;
+    }
+    
     .axil-service-area p {
         padding: 10px 0 0;
     }
     
+    .axil-service-area .action_perform {
+        padding: 55px 0 0;
+    }
+    
+    .mt-100 {
+        margin-top: 100px;
+    }
+    
+    .p-35 {
+        padding: 35px;
+    }
+    
+    .axil-service-area .action_perform a:before {
+        content: "";
+        position: absolute;
+        height: 7.6px;
+        width: 47%;
+        left: 104px;
+        bottom: -20px;
+        transition: 0.3s all ease-in-out;
+        color: white;
+        border-radius: 3px;
+        background-color: #fff;
+    }
+    
+    .axil-service-area .action_perform a:after {
+        content: "\f061";
+        position: absolute;
+        width: 100%;
+        left: 86px;
+        bottom: -49px;
+        font-size: 48px;
+        transition: 0.3s all ease-in-out;
+        color: white;
+        font-family: "Font Awesome 5 Free";
+    }
+    
     .axil-service-area .s2-newslatter_section {
-        top: 25px;
-        left: 30px;
-        max-width: 90%;
+        top: 11px;
+        left: 27px;
+        max-width: 81.5%;
         position: absolute;
         border-radius: 0px;
-        padding: 11px 0px;
+        padding: 41px 0px;
     }
     /*---------------------------
       Single Service  
@@ -9307,7 +9353,7 @@ Service Styles
     }
     
     .axil-service .inner .content h4.title {
-        margin-bottom: 5px;
+        margin-top: 20px;
     }
     
     @media only screen and (max-width: 767px) {
@@ -9565,7 +9611,6 @@ Service Styles
         z-index: 1;
         background-color: #fff;
         transition: 0.5s all ease-in-out;
-        box-shadow: 0px 20px 81px 0px rgb(8 0 20 / 14%);
     }
     
     .saas_two_service_section .service_content_box:before {
@@ -9595,7 +9640,6 @@ Service Styles
     
     .saas_two_service_section .service_content_box:hover {
         transform: translate(-7px, -7px);
-        box-shadow: 0px 20px 81px 0px rgba(8, 0, 20, 0.3);
     }
     
     .saas_two_service_section .service_content_box:hover:before {
@@ -9603,7 +9647,6 @@ Service Styles
     }
     
     .saas_two_service_section .service_content_box .service_icon_box {
-        width: 60px;
         margin-bottom: 18px;
     }
     
@@ -9630,7 +9673,7 @@ Service Styles
         color: #010101;
         font-size: 22px;
         font-weight: 700;
-        padding-bottom: 15px;
+        padding: 15px 0;
     }
     
     .saas_two_service_section .service_content_box .service_text_box hr.sm-line {
@@ -9643,6 +9686,7 @@ Service Styles
     .saas_two_service_section .service_content_box .service_text_box p {
         line-height: 1.5;
         color: #666666;
+        padding-top: 0;
     }
     /*---------------------------------------------------- */
     /*Service area*/
@@ -10329,8 +10373,8 @@ Service Styles
     }
     
     .s2-newslatter_section .newsletter_pattern_1 {
-        top: -25px;
-        left: 80px;
+        top: -21px;
+        left: 40px;
         z-index: 1;
         position: absolute;
     }
@@ -10372,18 +10416,14 @@ Service Styles
         margin-bottom: 8px;
     }
     
-    .saas_two_footer_section .s2_footer_widget .s2_footer_menu {
-        max-width: 340px;
-    }
-    
     .saas_two_footer_section .s2_footer_widget .s2_footer_menu li {
-        width: 50%;
-        float: left;
-        max-width: 320px;
         margin-bottom: 18px;
+        display: inline-block;
+        padding: 10px 10px 0 0;
     }
     
     .saas_two_footer_section .s2_footer_widget .s2_footer_menu li a {
+        width: 16.66%;
         color: #fff;
         margin-left: 15px;
         position: relative;
@@ -10415,7 +10455,7 @@ Service Styles
     }
     
     .saas_two_footer_section .s2_footer_widget .s2_footer_menu li a:hover {
-        margin-left: 25px;
+        margin-left: 12px;
         color: #00BEA3;
     }
     
@@ -10670,7 +10710,7 @@ Service Styles
     }
     
     .newsletter_pattern_3 {
-        width: 100%;
+        width: 90%;
         height: 46px;
         background-repeat: no-repeat;
         left: 100px;
