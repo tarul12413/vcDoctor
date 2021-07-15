@@ -8369,43 +8369,6 @@ body.fixed .menu-container {
     font-weight: bolder;
 }
 
-.action_perform a:hover {
-    color: #032959;
-}
-
-.action_perform a:after {
-    content: "\f061";
-    position: absolute;
-    width: 100%;
-    left: 125px;
-    bottom: -4px;
-    font-size: 48px;
-    transition: 0.3s all ease-in-out;
-    color: white;
-    font-family: "Font Awesome 5 Free";
-}
-
-.action_perform a:before {
-    content: "";
-    position: absolute;
-    height: 7.6px;
-    width: 67%;
-    left: 43px;
-    bottom: 25px;
-    transition: 0.3s all ease-in-out;
-    color: white;
-    border-radius: 3px;
-    background-color: #fff;
-}
-
-.action_perform a:hover:before {
-    background-color: #032959;
-}
-
-.action_perform a:hover:after {
-    color: #032959;
-}
-
 .nav.nav-tabs.tabs-left li a.active {
     background: #032959
 }
@@ -8498,7 +8461,7 @@ body.fixed .menu-container {
 }
 
 .main_gradinet_sec {
-    padding: 30px 0 50px 0;
+    padding: 30px 0 30px 0;
     background: #d3f4ee;
     border-bottom: 1px solid #ece9e9;
     max-width: 100%!important
@@ -8968,9 +8931,9 @@ body.fixed .menu-container {
 } */
 
 .main_business_sec .banner_btn a {
-    width: 68%;
+    width: 85%;
     border-radius: 25px 0px 25px 0;
-    font-size: 12px;
+    font-size: 18px;
     color: #00BEA3;
     border: 2px solid #00BEA3;
     background: #e9fffc;
@@ -10729,10 +10692,6 @@ body.fixed .menu-container {
 
 .site-main #post-5 {
     margin-top: 0!important
-}
-
-.services_main_bln {
-    margin: 70px 0 0 0
 }
 
 .service_sec {

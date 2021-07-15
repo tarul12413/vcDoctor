@@ -8472,6 +8472,49 @@ Sticky Menu
         visibility: visible;
     }
     
+    .bn29 a {
+        border: 5em;
+        cursor: pointer;
+        outline: none;
+        font-size: 22px;
+        -webkit-transform: translate(0);
+        transform: translate(0);
+        background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+        padding: 0.7em 2em;
+        border-radius: 65px;
+        box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+        -webkit-transition: box-shadow 0.25s;
+        transition: box-shadow 0.25s;
+        color: white;
+    }
+    
+    .bn29 a .text {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+    }
+    
+    .bn29 a:after {
+        content: "";
+        border-radius: 18px;
+        position: absolute;
+        margin: 4px;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+    
+    .bn29 a:hover {
+        background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+        box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+    }
+    
+    .bn29 a:hover .text {
+        background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+    }
+    
     .button2 {
         background-color: #00BEA3;
         height: auto!important;
@@ -8956,6 +8999,11 @@ Sticky Menu
         text-align: left;
     }
     
+    .sec_serv .banner_btn a:hover:last-child i {
+        color: white !important;
+        -webkit-text-fill-color: inherit;
+    }
+    
     .sec_serv .banner_btn a:last-child i {
         color: black !important;
         -webkit-text-fill-color: inherit;
@@ -9047,12 +9095,12 @@ Service Styles
 ======================*/
     
     .saas_two_solution_section {
-        padding: 40px 0px 100px;
+        padding: 40px 0;
     }
     
     .axil-service-area .cta-img {
         position: relative;
-        margin-top: 55px;
+        margin-top: 100px;
     }
     
     .axil-service-area .cta-img img {
@@ -9071,41 +9119,20 @@ Service Styles
         margin-top: 100px;
     }
     
+    .mt-50 {
+        margin-top: 5px;
+    }
+    
     .p-35 {
         padding: 35px;
     }
     
-    .axil-service-area .action_perform a:before {
-        content: "";
-        position: absolute;
-        height: 7.6px;
-        width: 47%;
-        left: 104px;
-        bottom: -20px;
-        transition: 0.3s all ease-in-out;
-        color: white;
-        border-radius: 3px;
-        background-color: #fff;
-    }
-    
-    .axil-service-area .action_perform a:after {
-        content: "\f061";
-        position: absolute;
-        width: 100%;
-        left: 86px;
-        bottom: -49px;
-        font-size: 48px;
-        transition: 0.3s all ease-in-out;
-        color: white;
-        font-family: "Font Awesome 5 Free";
-    }
-    
     .axil-service-area .s2-newslatter_section {
-        top: 11px;
-        left: 27px;
-        max-width: 81.5%;
+        top: 0;
+        left: 0;
+        max-width: 90%;
         position: absolute;
-        border-radius: 0px;
+        border-radius: 25px;
         padding: 41px 0px;
     }
     /*---------------------------
@@ -9114,7 +9141,7 @@ Service Styles
     
     .axil-service {
         position: relative;
-        margin-top: 30px;
+        margin-bottom: 30px;
     }
     
     @media only screen and (max-width: 767px) {
@@ -9335,7 +9362,7 @@ Service Styles
         text-align: center;
         line-height: 58px;
         border-radius: 100%;
-        background: #702FFF;
+        background: #a585ec;
         z-index: 1;
         overflow: hidden;
     }
@@ -9565,7 +9592,7 @@ Service Styles
     }
     
     .vision img {
-        width: 9%;
+        width: 10%;
         padding-right: 20px;
     }
     
@@ -9596,7 +9623,7 @@ Service Styles
     }
     
     .saas_two_service_section {
-        padding: 40px 0px 0px;
+        padding: 25px 0px 0px;
         background: #d3f4ee;
     }
     
@@ -10372,6 +10399,16 @@ Service Styles
         right: 0;
     }
     
+    .parent_industries .reward-sec {
+        height: 200px;
+        margin: 30px 0;
+        text-align: center;
+    }
+    
+    .parent_industries .reward-sec img {
+        height: 100%;
+    }
+    
     .s2-newslatter_section .newsletter_pattern_1 {
         top: -21px;
         left: 40px;
@@ -10390,7 +10427,6 @@ Service Styles
     
     .saas_two_footer_section .s2_footer_widget .footer_about {
         color: #fff;
-        max-width: 235px;
         margin-bottom: 20px;
         line-height: 1.714;
     }
@@ -10500,10 +10536,10 @@ Service Styles
     }
     
     .colorBox-1 {
-        background: #d74782;
-        background: -moz-linear-gradient(-45deg, #d74782 0, #c00556 100%);
-        background: -webkit-linear-gradient( -45deg, #d74782 0, #c00556 100%);
-        background: linear-gradient( 135deg, #d74782 0, #c00556 100%);
+        background: #47ced7;
+        background: -moz-linear-gradient(-45deg, #47ced7 0, #05c047 100%);
+        background: -webkit-linear-gradient( -45deg, #47ced7 0, #05c047 100%);
+        background: linear-gradient( 135deg, #47ced7 0, #05c047 100%);
     }
     
     .Box-text {
@@ -10539,11 +10575,11 @@ Service Styles
     }
     
     .colorBox-2 .triangle:before {
-        background: linear-gradient( 135deg, #722170 0, #2d245d 100%);
+        background: linear-gradient( 135deg, #32b587 0, #0f5044 100%);
     }
     
     .colorBox-1 .triangle:before {
-        background: linear-gradient( -45deg, #c10a58 -100%, #d74782 100%);
+        background: linear-gradient( -45deg, #05c047 -100%, #47ced7 100%);
         left: auto;
         right: 50px;
     }
@@ -10558,10 +10594,10 @@ Service Styles
     }
     
     .colorBox-2 {
-        background: #722170;
-        background: -moz-linear-gradient(-45deg, #722170 0, #2d245d 100%);
-        background: -webkit-linear-gradient( -45deg, #722170 0, #2d245d 100%);
-        background: linear-gradient( 135deg, #722170 0, #2d245d 100%);
+        background: #32b587;
+        background: -moz-linear-gradient(-45deg, #32b587 0, #0f5044 100%);
+        background: -webkit-linear-gradient( -45deg, #32b587 0, #0f5044 100%);
+        background: linear-gradient( 135deg, #32b587 0, #0f5044 100%);
     }
     
     .colorBox-3 {
